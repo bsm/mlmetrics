@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"testing"
 
+	. "github.com/bsm/ginkgo"
+	. "github.com/bsm/gomega"
 	"github.com/bsm/mlmetrics"
-	. "github.com/onsi/ginkgo"
-	. "github.com/onsi/gomega"
 )
 
 var _ = Describe("ConfusionMatrix", func() {

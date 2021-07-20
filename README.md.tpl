@@ -1,7 +1,7 @@
 # ML metrics
 
 [![GoDoc](https://godoc.org/github.com/bsm/mlmetrics?status.svg)](https://godoc.org/github.com/bsm/mlmetrics)
-[![Build Status](https://travis-ci.org/bsm/mlmetrics.svg?branch=master)](https://travis-ci.org/bsm/mlmetrics)
+[![Test](https://github.com/bsm/openmetrics/actions/workflows/test.yml/badge.svg)](https://github.com/bsm/openmetrics/actions/workflows/test.yml)
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
 Common metrics for evaluation of machine learning models.

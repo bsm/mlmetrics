@@ -1,6 +1,8 @@
 module github.com/bsm/mlmetrics
 
+go 1.14
+
 require (
-	github.com/onsi/ginkgo v1.7.0
-	github.com/onsi/gomega v1.4.3
+	github.com/bsm/ginkgo v1.16.4
+	github.com/bsm/gomega v1.14.0
 )

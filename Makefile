@@ -1,19 +1,15 @@
-default: vet test
-
-vet:
-	go vet ./...
+default: test
 
 test:
 	go test ./...
 
 bench:
-	go test ./... -test.run=NONE -test.bench=. -benchmem -benchtime=1s
+	go test ./... -run=NONE -bench=. -benchmem
 
-.PHONY: vet test bench
+lint:
+	golangci-lint run
 
 doc: README.md
 
 README.md: README.md.tpl $(wildcard *.go)
-	becca -package $(subst $(GOPATH)/src/,,$(PWD))
-
-.PHONY: doc
+	becca -package github.com/bsm/mlmetrics
